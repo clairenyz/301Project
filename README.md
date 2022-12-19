@@ -1,16 +1,31 @@
 # 301Project
 
+### Project Description
+
+Our project is to test which model architecture produces the best results of flower recognition using Oxford 102 dataset. There are more than 250,000 known species of flowering plants classified into about 350 families. A wide range of various applications including content-based image retrieval for flower representation and indexing, plants monitoring systems, floriculture industry, live plant identification and educational resources on flower taxonomy depend on successful flower classification. 
+
+### Repository and Code structure
+
+This repository contains multiple google colab notebooks and their result png
+Final_301_Project_Mobilenet.ipynb (contain before and after fine-tuning models)
+Final_301_Project_RESNET.ipynb  (contain before and after fine-tuning models)
+Final_301_Project_VGG.ipynb  (contain before and after fine-tuning models)
+Mobilenet.png (graph of result accuracy and loss)
+Resnet.png (graph of result accuracy and loss)
+VGG16.png (graph of result accuracy and loss)
+
+### Example commands to execute the code         
+Our code is initiated in Google Colab. In order to execute the code, please download the data folder in https://www.kaggle.com/datasets/nunenuh/pytorch-challange-flower-dataset, upload it to drive, and mount in colab. It will work fine. 
+
+### Results 
+
+
 
 |       |  Not tuned | Fine-tuned
 | ----------- | ----------- |-----------
 | Mobilenets      | High accuracy (overfitting?)       |Accuracy drop a bit  
 |  Resnet50   | Slow; Low accuracy      |Fast; Lower accuracy
 |VGG16|Slow; Low accuracy      |Fast; Higher accuracy
-
-
-
-
-
 
 
 
